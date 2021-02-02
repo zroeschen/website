@@ -1,0 +1,41 @@
+# Site settings
+name: Zander Roeschen
+title: Zander Roeschen | Emerging Technology Consultant
+description: Design-minded technology consultant, focused on building seamless experiences
+url: https://zroeschen.github.io/
+baseurl: ""
+email: zroeschen@gmail.com
+cover: https://zroeschen.github.io/img/og.png
+logo: https://zroeschen.github.io/img/emojis/bitmoji.JPG
+resume: resume.pdf
+social:
+  - title: email
+    url: mailto:zroeschen@gmail.com
+  - title: instagram
+    url: https://instagram.com/zander.roeschen
+  - title: github
+    url: https://github.com/zroeschen
+  - title: linkedin
+    url: https://www.linkedin.com/in/alexander-roeschen/
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "*.gemspec"
+  - "README.md"
+  - "node_modules"
+  - "build"
+  - "gulpfile.js"
+  - "package.json"
+
+keep_files:
+  - "CNAME"
+  - ".git"
+  - ".gitignore"
+
+plugins_dir:
+  - jekyll-minifier
+  - jekyll-sitemap
